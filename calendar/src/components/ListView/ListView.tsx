@@ -18,10 +18,9 @@ interface ListViewProps {
 const ListView: React.FC<ListViewProps> = ({ sets }) => {
     return (
         <div>
-            <h2>LEGO Sets List</h2>
-                {sets.map((set) => (
-                    <ListCard key={set.id} set={set} />
-                ))}
+            {sets.map((set) => (
+                <ListCard key={set.id} set={set} />
+            ))}
         </div>
     );
 };

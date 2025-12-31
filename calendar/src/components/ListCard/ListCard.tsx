@@ -1,4 +1,5 @@
 import type { LEGOSet } from "../../types/LEGOSet";
+import './ListCard.css';
 
 interface ListCardProps {
     /**
@@ -14,11 +15,16 @@ interface ListCardProps {
  */
 const ListCard: React.FC<ListCardProps> = ({ set }) => {
     return (
-        <div className="list-card">
-            <h3>{set.name} ({set.theme})</h3>
-            <p>Pieces: {set.pieces}</p>
-            <p>Release Date: {set.releaseDate.toDateString()}</p>
-            <p>Price: {set.price.currency} {set.price.amount.toFixed(2)}</p>
+        <div className="card">
+            <div className="card-header">
+                <span className="card-header-name">{set.name}</span>
+            </div>
+            <div className="card-body">
+                <span className="card-header-theme">{set.theme}</span>
+                <span className="card-header-pieces">{set.pieces}</span>
+                <span className="card-header-releaseDate">{set.releaseDate.toDateString()}</span>
+                <span className="card-header-price">{set.price.currency} {set.price.amount.toFixed(2)}</span>
+            </div>
         </div>
     );
 };
