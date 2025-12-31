@@ -1,5 +1,6 @@
 import type React from "react";
 import type { LEGOSet } from "../../types/LEGOSet";
+import ListCard from "../ListCard/ListCard";
 
 
 interface ListViewProps {
@@ -18,16 +19,9 @@ const ListView: React.FC<ListViewProps> = ({ sets }) => {
     return (
         <div>
             <h2>LEGO Sets List</h2>
-            <ul>
                 {sets.map((set) => (
-                    <li key={set.id}>
-                        <h3>{set.name} ({set.theme})</h3>
-                        <p>Pieces: {set.pieces}</p>
-                        <p>Release Date: {set.releaseDate.toDateString()}</p>
-                        <p>Price: {set.price.currency} {set.price.amount.toFixed(2)}</p>
-                    </li>
+                    <ListCard key={set.id} set={set} />
                 ))}
-            </ul>
         </div>
     );
 };
