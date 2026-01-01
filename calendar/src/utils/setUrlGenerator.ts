@@ -6,6 +6,7 @@ import type { LEGOSet } from "../types/LEGOSet";
  * @returns the URL string for the LEGO set.
  * @example "https://www.lego.com/en-us/product/test-set-10001"
  * @todo Future implementation should support localization. In case of locale set name, this would require english data as well, as the URL are constructed using that 
+ * @todo future implementation should handle characters (e.g., -, copyright, comma) in set names appropriately. Maybe support direct url appendix in data since they dont all follow the same rules.
  */
 export const generateUrlForSet = (set: LEGOSet): string => {
     // Sets are generated via the us-en locale and appeded with set number (id). 

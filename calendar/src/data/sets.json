@@ -21,6 +21,61 @@
                 "currency": "USD",
                 "amount": 59.99
             }
+        },
+        {
+            "id": "40725",
+            "name": "Cherry Blossoms",
+            "theme": "Other",
+            "pieces": 430,
+            "releaseDate": "2026-01-01",
+            "price": {
+                "currency": "USD",
+                "amount": 14.99
+            }
+        },
+        {
+            "id": "60490",
+            "name": "Snowplow",
+            "theme": "City",
+            "pieces": 263,
+            "releaseDate": "2026-01-01",
+            "price": {
+                "currency": "USD",
+                "amount": 27.99
+            }
+        },
+        {
+            "id": "60491",
+            "name": "Motorcycle Transporter",
+            "theme": "City",
+            "pieces": 88,
+            "releaseDate": "2026-01-01",
+            "price": {
+                "currency": "USD",
+                "amount": 19.99
+            }
+        },
+        {
+            "id": "60495",
+            "name": "Recycling Truck",
+            "theme": "City",
+            "pieces": 434,
+            "releaseDate": "2026-01-01",
+            "price": {
+                "currency": "USD",
+                "amount": 39.99
+            }
+        },
+        {
+            "id": "31378",
+            "name": "Space Exploration Telescope",
+            "theme": "Creator 3-in-1",
+            "pieces": 278,
+            "releaseDate": "2026-01-01",
+            "price": {
+                "currency": "USD",
+                "amount": 34.99
+            }
         }
     ]
 }
