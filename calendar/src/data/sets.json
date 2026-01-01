@@ -83,6 +83,30 @@
                 "currency": "USD",
                 "amount": 34.99
             }
+        },
+        {
+            "id": "21064",
+            "name": "Paris – City of Love",
+            "theme": "Architecture",
+            "pieces": 958,
+            "releaseDate": "2026-01-01",
+            "urlPath": "architecture-21064-21064",
+            "price": {
+                "currency": "USD",
+                "amount": 79.99
+            }
+        },
+        {
+            "id": "77256",
+            "name": "Time Machine from Back to the Future",
+            "theme": "Speed Champions",
+            "pieces": 357,
+            "releaseDate": "2026-01-01",
+            "urlPath": "time-machine-from-back-to-the-future-77256",
+            "price": {
+                "currency": "USD",
+                "amount": 27.99
+            }
         }
     ]
 }
