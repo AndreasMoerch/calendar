@@ -7,6 +7,7 @@ const mockLEGOSet: LEGOSet = {
   theme: "Test Theme",
   pieces: 100,
   releaseDate: new Date('2026-01-15'),
+  urlPath: "test-set-10001",
   price: {
     currency:  "USD",
     amount: 59.99

@@ -33,6 +33,12 @@ export interface LEGOSet {
      * @example { curreny: "USD", amount: 59.99 }
      */
     price: Price;
+
+    /**
+     * URL path for the LEGO set.
+     * @example "tulip-bouquet-11501"
+     */
+    urlPath: string;
 }
 
 /**
