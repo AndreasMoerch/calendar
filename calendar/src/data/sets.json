@@ -321,6 +321,22 @@
             "urlPath": "cherry-blossoms-40725"
         },
         {
+            "id": "40863",
+            "locales": {
+                "en-US": {
+                    "name": "Easter Egg Basket",
+                    "theme": "Other",
+                    "price": {
+                        "currency": "USD",
+                        "amount": 14.99
+                    }
+                }
+            },
+            "pieces": 216,
+            "releaseDate": "2026-01-01",
+            "urlPath": "easter-egg-basket-40863"
+        },
+        {
             "id": "40864",
             "locales": {
                 "en-US": {
@@ -335,6 +351,38 @@
             "pieces": 386,
             "releaseDate": "2026-01-01",
             "urlPath": "fortune-master-40864"
+        },
+        {
+            "id": "40867",
+            "locales": {
+                "en-US": {
+                    "name": "Love Letters",
+                    "theme": "Other",
+                    "price": {
+                        "currency": "USD",
+                        "amount": 19.99
+                    }
+                }
+            },
+            "pieces": 345,
+            "releaseDate": "2026-01-01",
+            "urlPath": "love-letters-40867"
+        },
+        {
+            "id": "40920",
+            "locales": {
+                "en-US": {
+                    "name": "Bugs Bunny",
+                    "theme": "Other",
+                    "price": {
+                        "currency": "USD",
+                        "amount": 39.99
+                    }
+                }
+            },
+            "pieces": 605,
+            "releaseDate": "2026-01-01",
+            "urlPath": "bugs-bunny-40920"
         },
         {
             "id": "60478",
