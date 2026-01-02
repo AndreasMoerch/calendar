@@ -1,5 +1,5 @@
 import type { LEGOSet } from '../types/LEGOSet';
-import setsJson from './sets.json';
+import json from './sets.json';
 
 /**
  * List of LEGO sets with their details.
@@ -17,7 +17,46 @@ import setsJson from './sets.json';
  *   ...
  * ]
  */
-export const LEGOSets: LEGOSet[] = setsJson.releases.map((set) => ({
-    ...set,
-    releaseDate: new Date(set.releaseDate),
-}));
+export const LEGOSets = (locale: string): LEGOSet[] =>
+    setsData.releases.map((set) => {
+        const localeData = set.locales[locale];
+        return {
+            id: set.id,
+            name: localeData.name,
+            theme: localeData.theme,
+            pieces: set.pieces,
+            releaseDate: new Date(set.releaseDate),
+            urlPath: set.urlPath,
+            price: localeData.price,
+        }
+    });
+
+/**
+ * Internal type representing the structure of LEGO set data in JSON.
+ * Contains option for multiple locales, which is mapped to a single locale in the exported LEGOSet type.
+ */
+const setsData: setsJson = json as setsJson;
+
+type setsJson = {
+    releases: setJson[];
+}
+
+type setJson = {
+  id: string;
+  locales: Record<string, localeJson>; // Note: Can be multiple locales in the future, hence the Record type.
+  pieces: number;
+  releaseDate: string;
+  urlPath: string;
+};
+
+type localeJson = {
+  name: string;
+  theme: string;
+  price: priceJson;
+};
+
+type priceJson = {
+    currency: string;
+    amount: number;
+}
+

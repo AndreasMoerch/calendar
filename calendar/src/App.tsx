@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <div>
-        <ListView sets={LEGOSets} /> 
+        <ListView sets={LEGOSets("en-US")} /> 
       </div>
     </>
   )

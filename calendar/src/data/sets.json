@@ -2,147 +2,195 @@
     "releases": [
         {
             "id": "60500",
-            "name": "The LEGO Van",
-            "theme": "City",
+            "locales": {
+                "en-US": {
+                    "name": "The LEGO Van",
+                    "theme": "City",
+                    "price": {
+                        "currency": "USD",
+                        "amount": 29.99
+                    }
+                }
+            },
             "pieces": 276,
             "releaseDate": "2026-01-01",
-            "urlPath": "the-lego-van-60500",
-            "price": {
-                "currency": "USD",
-                "amount": 29.99
-            }
+            "urlPath": "the-lego-van-60500"
         },
         {
             "id": "11501",
-            "name": "Tulip Bouquet",
-            "theme": "The Botanical Collection",
+            "locales": {
+                "en-US": {
+                    "name": "Tulip Bouquet",
+                    "theme": "The Botanical Collection",
+                    "price": {
+                        "currency": "USD",
+                        "amount": 59.99
+                    }
+                }
+            },
             "pieces": 576,
             "releaseDate": "2026-01-01",
-            "urlPath": "tulip-bouquet-11501",
-            "price": {
-                "currency": "USD",
-                "amount": 59.99
-            }
+            "urlPath": "tulip-bouquet-11501"
         },
         {
             "id": "40725",
-            "name": "Cherry Blossoms",
-            "theme": "Other",
+            "locales": {
+                "en-US": {
+                    "name": "Cherry Blossoms",
+                    "theme": "Other",
+                    "price": {
+                        "currency": "USD",
+                        "amount": 14.99
+                    }
+                }
+            },
             "pieces": 430,
             "releaseDate": "2026-01-01",
-            "urlPath": "cherry-blossoms-40725",
-            "price": {
-                "currency": "USD",
-                "amount": 14.99
-            }
+            "urlPath": "cherry-blossoms-40725"
         },
         {
             "id": "60490",
-            "name": "Snowplow",
-            "theme": "City",
+            "locales": {
+                "en-US": {
+                    "name": "Snowplow",
+                    "theme": "City",
+                    "price": {
+                        "currency": "USD",
+                        "amount": 27.99
+                    }
+                }
+            },
             "pieces": 263,
             "releaseDate": "2026-01-01",
-            "urlPath": "snowplow-60490",
-            "price": {
-                "currency": "USD",
-                "amount": 27.99
-            }
+            "urlPath": "snowplow-60490"
         },
         {
             "id": "60491",
-            "name": "Motorcycle Transporter",
-            "theme": "City",
+            "locales": {
+                "en-US": {
+                    "name": "Motorcycle Transporter",
+                    "theme": "City",
+                    "price": {
+                        "currency": "USD",
+                        "amount": 19.99
+                    }
+                }
+            },
             "pieces": 88,
             "releaseDate": "2026-01-01",
-            "urlPath": "motorcycle-transporter-60491",
-            "price": {
-                "currency": "USD",
-                "amount": 19.99
-            }
+            "urlPath": "motorcycle-transporter-60491"
         },
         {
             "id": "60495",
-            "name": "Recycling Truck",
-            "theme": "City",
+            "locales": {
+                "en-US": {
+                    "name": "Recycling Truck",
+                    "theme": "City",
+                    "price": {
+                        "currency": "USD",
+                        "amount": 39.99
+                    }
+                }
+            },
             "pieces": 434,
             "releaseDate": "2026-01-01",
-            "urlPath": "recycling-truck-60495",
-            "price": {
-                "currency": "USD",
-                "amount": 39.99
-            }
+            "urlPath": "recycling-truck-60495"
         },
         {
             "id": "31378",
-            "name": "Space Exploration Telescope",
-            "theme": "Creator 3-in-1",
+            "locales": {
+                "en-US": {
+                    "name": "Space Exploration Telescope",
+                    "theme": "Creator 3-in-1",
+                    "price": {
+                        "currency": "USD",
+                        "amount": 34.99
+                    }
+                }
+            },
             "pieces": 278,
             "releaseDate": "2026-01-01",
-            "urlPath": "space-exploration-telescope-31378",
-            "price": {
-                "currency": "USD",
-                "amount": 34.99
-            }
+            "urlPath": "space-exploration-telescope-31378"
         },
         {
             "id": "21064",
-            "name": "Paris – City of Love",
-            "theme": "Architecture",
+            "locales": {
+                "en-US": {
+                    "name": "Paris – City of Love",
+                    "theme": "Architecture",
+                    "price": {
+                        "currency": "USD",
+                        "amount": 79.99
+                    }
+                }
+            },
             "pieces": 958,
             "releaseDate": "2026-01-01",
-            "urlPath": "architecture-21064-21064",
-            "price": {
-                "currency": "USD",
-                "amount": 79.99
-            }
+            "urlPath": "architecture-21064-21064"
         },
         {
             "id": "77256",
-            "name": "Time Machine from Back to the Future",
-            "theme": "Speed Champions",
+            "locales": {
+                "en-US": {
+                    "name": "Time Machine from Back to the Future",
+                    "theme": "Speed Champions",
+                    "price": {
+                        "currency": "USD",
+                        "amount": 27.99
+                    }
+                }
+            },
             "pieces": 357,
             "releaseDate": "2026-01-01",
-            "urlPath": "time-machine-from-back-to-the-future-77256",
-            "price": {
-                "currency": "USD",
-                "amount": 27.99
-            }
+            "urlPath": "time-machine-from-back-to-the-future-77256"
         },
         {
             "id": "43290",
-            "name": "Kevin & Dug",
-            "theme": "Disney",
+            "locales": {
+                "en-US": {
+                    "name": "Kevin & Dug",
+                    "theme": "Disney",
+                    "price": {
+                        "currency": "USD",
+                        "amount": 59.99
+                    }
+                }
+            },
             "pieces": 628,
             "releaseDate": "2026-03-01",
-            "urlPath": "kevin-dug-43290",
-            "price": {
-                "currency": "USD",
-                "amount": 59.99
-            }
+            "urlPath": "kevin-dug-43290"
         },
         {
             "id": "42226",
-            "name": "BMW M4 GT3 EVO Race Car",
-            "theme": "Technic",
+            "locales": {
+                "en-US": {
+                    "name": "BMW M4 GT3 EVO Race Car",
+                    "theme": "Technic",
+                    "price": {
+                        "currency": "USD",
+                        "amount": 64.99
+                    }
+                }
+            },
             "pieces": 747,
             "releaseDate": "2026-03-01",
-            "urlPath": "bmw-m4-gt3-evo-race-car-42226",
-            "price": {
-                "currency": "USD",
-                "amount": 64.99
-            }
+            "urlPath": "bmw-m4-gt3-evo-race-car-42226"
         },
         {
             "id": "43288",
-            "name": "Sally's Flowerpot",
-            "theme": "Disney",
+            "locales": {
+                "en-US": {
+                    "name": "Sally's Flowerpot",
+                    "theme": "Disney",
+                    "price": {
+                        "currency": "USD",
+                        "amount": 49.99
+                    }
+                }
+            },
             "pieces": 346,
             "releaseDate": "2026-03-01",
-            "urlPath": "sallys-flowerpot-43288",
-            "price": {
-                "currency": "USD",
-                "amount": 49.99
-            }
+            "urlPath": "sallys-flowerpot-43288"
         }
     ]
 }
