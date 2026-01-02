@@ -545,6 +545,102 @@
             "urlPath": "rides-police-truck-60481"
         },
         {
+            "id": "77252",
+            "locales": {
+                "en-US": {
+                    "name": "APXGP Team Race Car from F1 The Movie",
+                    "theme": "Speed Champions",
+                    "price": {
+                        "currency": "USD",
+                        "amount": 27.99
+                    }
+                }
+            },
+            "pieces": 268,
+            "releaseDate": "2026-01-01",
+            "urlPath": "apxgp-team-race-car-from-f1-the-movie-77252"
+        },
+        {
+            "id": "77256",
+            "locales": {
+                "en-US": {
+                    "name": "Time Machine from Back to the Future",
+                    "theme": "Speed Champions",
+                    "price": {
+                        "currency": "USD",
+                        "amount": 27.99
+                    }
+                }
+            },
+            "pieces": 357,
+            "releaseDate": "2026-01-01",
+            "urlPath": "time-machine-from-back-to-the-future-77256"
+        },
+        {
+            "id": "77255",
+            "locales": {
+                "en-US": {
+                    "name": "Lightning McQueen",
+                    "theme": "Speed Champions",
+                    "price": {
+                        "currency": "USD",
+                        "amount": 27.99
+                    }
+                }
+            },
+            "pieces": 270,
+            "releaseDate": "2026-01-01",
+            "urlPath": "lightning-mcqueen-77255"
+        },
+        {
+            "id": "77254",
+            "locales": {
+                "en-US": {
+                    "name": "Ferrari SF90 XX Stradale Sports Car",
+                    "theme": "Speed Champions",
+                    "price": {
+                        "currency": "USD",
+                        "amount": 27.99
+                    }
+                }
+            },
+            "pieces": 339,
+            "releaseDate": "2026-01-01",
+            "urlPath": "ferrari-sf90-xx-stradale-sports-car-77254"
+        },
+        {
+            "id": "77253",
+            "locales": {
+                "en-US": {
+                    "name": "Bugatti Vision GT Hyper Sports Car",
+                    "theme": "Speed Champions",
+                    "price": {
+                        "currency": "USD",
+                        "amount": 27.99
+                    }
+                }
+            },
+            "pieces": 284,
+            "releaseDate": "2026-01-01",
+            "urlPath": "bugatti-vision-gt-hyper-sports-car-77253"
+        },
+        {
+            "id": "77257",
+            "locales": {
+                "en-US": {
+                    "name": "McLaren W1",
+                    "theme": "Speed Champions",
+                    "price": {
+                        "currency": "USD",
+                        "amount": 27.99
+                    }
+                }
+            },
+            "pieces": 287,
+            "releaseDate": "2026-01-01",
+            "urlPath": "mclaren-w1-77257"
+        },
+        {
             "id": "42226",
             "locales": {
                 "en-US": {
