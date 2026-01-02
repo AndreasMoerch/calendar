@@ -11,6 +11,7 @@ import setsJson from './sets.json';
  *     theme: "Botanical Collection",
  *     pieces: 576,
  *     releaseDate: new Date("2026-01-01"),
+ *     urlPath: "tulip-bouquet-11501",
  *     price: { currency: "USD", amount: 59.99 }
  *   },
  *   ...

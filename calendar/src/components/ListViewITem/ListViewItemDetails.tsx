@@ -1,6 +1,7 @@
 import type { LEGOSet } from "../../types/LEGOSet";
 import { formatPriceWithCurrency } from "../../utils/priceFormatter";
 import { generateUrlForSet } from "../../utils/setUrlGenerator";
+import { FaExternalLinkAlt } from "react-icons/fa";
 import './ListViewItem.css';
 
 interface ListViewItemDetailsProps {
@@ -18,6 +19,7 @@ interface ListViewItemDetailsProps {
 const ListViewItemDetails: React.FC<ListViewItemDetailsProps> = ({ set }) => {
 
     const priceWithCurrency = formatPriceWithCurrency(set);
+    const setUrl = generateUrlForSet(set);
 
     return (
         <div className="card-content">
@@ -26,7 +28,16 @@ const ListViewItemDetails: React.FC<ListViewItemDetailsProps> = ({ set }) => {
             <span className="card-theme">{set.theme}</span>
             <span className="card-pieces">{set.pieces} pieces</span>
             <span className="card-price">{priceWithCurrency}</span>
-            <a href={generateUrlForSet(set)} className="card-url">{generateUrlForSet(set)}</a>
+            <a
+                className="card-url"
+                href={setUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                title={setUrl}
+            >
+                LEGO.com&nbsp;
+                <FaExternalLinkAlt />
+            </a>
         </div>
     );
 };
