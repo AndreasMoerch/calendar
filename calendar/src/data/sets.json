@@ -353,22 +353,6 @@
             "urlPath": "recycling-truck-60495"
         },
         {
-            "id": "60491",
-            "locales": {
-                "en-US": {
-                    "name": "Motorcycle Transporter",
-                    "theme": "City",
-                    "price": {
-                        "currency": "USD",
-                        "amount": 19.99
-                    }
-                }
-            },
-            "pieces": 88,
-            "releaseDate": "2026-01-01",
-            "urlPath": "motorcycle-transporter-60491"
-        },
-        {
             "id": "60489",
             "locales": {
                 "en-US": {
@@ -559,22 +543,6 @@
             "pieces": 268,
             "releaseDate": "2026-01-01",
             "urlPath": "apxgp-team-race-car-from-f1-the-movie-77252"
-        },
-        {
-            "id": "77256",
-            "locales": {
-                "en-US": {
-                    "name": "Time Machine from Back to the Future",
-                    "theme": "Speed Champions",
-                    "price": {
-                        "currency": "USD",
-                        "amount": 27.99
-                    }
-                }
-            },
-            "pieces": 357,
-            "releaseDate": "2026-01-01",
-            "urlPath": "time-machine-from-back-to-the-future-77256"
         },
         {
             "id": "77255",
