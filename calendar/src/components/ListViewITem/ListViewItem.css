@@ -12,7 +12,7 @@
 }
 
 .card-date {
-  min-width: 60px;
+  width: 120px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -42,9 +42,11 @@
 
 
 .card-content {
-  display: flex;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 250px 180px 100px 1fr 120px;
   gap: 16px;
+  align-items: center;
+  padding: 4px 0;
 }
 
 .card-content:hover {
@@ -55,24 +57,44 @@
   color: #ffffff;
   font-size: 14px;
   font-weight:  500;
-  min-width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: left;
 }
 
 .card-theme {
   color: #888;
   font-size: 12px;
-  min-width: 120px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: left;
 }
 
 .card-pieces {
   color: #888;
   font-size: 12px;
-  min-width: 80px;
+  text-align: left;
+}
+
+.card-url {
+  color: #6495ED;
+  font-size: 12px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-decoration: none;
+  text-align: left;
+}
+
+.card-url:hover {
+  text-decoration: underline;
 }
 
 .card-price {
   color: #ffffff;
   font-size: 14px;
   font-weight:  600;
-  margin-left: auto;
+  text-align: left;
 }
