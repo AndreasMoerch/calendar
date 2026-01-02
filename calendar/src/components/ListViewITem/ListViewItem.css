@@ -1,18 +1,14 @@
 .card {
-  background: #1a1a1a; /* Dark theme like in image */
-  border: none;
+  background:  #1a1a1a;
+  border:  none;
   border-radius: 0;
   margin: 0;
   box-shadow: none;
   display: flex;
-  align-items: center;
-  padding: 8px 16px;
+  align-items: flex-start; 
+  padding:  8px 16px;
   border-bottom: 1px solid #333;
   transition: background-color 0.2s ease;
-}
-
-.card:hover {
-  background: #2a2a2a;
 }
 
 .card-date {
@@ -21,6 +17,7 @@
   flex-direction: column;
   align-items: center;
   margin-right: 20px;
+  flex-shrink: 0;
 }
 
 .card-date-number {
@@ -36,11 +33,22 @@
   text-transform: uppercase;
 }
 
-.card-content {
+.card-date-content {
   flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 4px; 
+}
+
+
+.card-content {
   display: flex;
   align-items: center;
   gap: 16px;
+}
+
+.card-content:hover {
+  background:  #2a2a2a;
 }
 
 .card-name {

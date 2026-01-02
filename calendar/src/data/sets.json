@@ -107,6 +107,42 @@
                 "currency": "USD",
                 "amount": 27.99
             }
+        },
+        {
+            "id": "43290",
+            "name": "Kevin & Dug",
+            "theme": "Disney",
+            "pieces": 628,
+            "releaseDate": "2026-03-01",
+            "urlPath": "kevin-dug-43290",
+            "price": {
+                "currency": "USD",
+                "amount": 59.99
+            }
+        },
+        {
+            "id": "42226",
+            "name": "BMW M4 GT3 EVO Race Car",
+            "theme": "Technic",
+            "pieces": 747,
+            "releaseDate": "2026-03-01",
+            "urlPath": "bmw-m4-gt3-evo-race-car-42226",
+            "price": {
+                "currency": "USD",
+                "amount": 64.99
+            }
+        },
+        {
+            "id": "43288",
+            "name": "Sally's Flowerpot",
+            "theme": "Disney",
+            "pieces": 346,
+            "releaseDate": "2026-03-01",
+            "urlPath": "sallys-flowerpot-43288",
+            "price": {
+                "currency": "USD",
+                "amount": 49.99
+            }
         }
     ]
 }
