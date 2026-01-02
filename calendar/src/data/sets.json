@@ -641,6 +641,134 @@
             "urlPath": "mclaren-w1-77257"
         },
         {
+            "id": "75440",
+            "locales": {
+                "en-US": {
+                    "name": "AT-AT",
+                    "theme": "Star Wars",
+                    "price": {
+                        "currency": "USD",
+                        "amount": 64.99
+                    }
+                }
+            },
+            "pieces": 525,
+            "releaseDate": "2026-01-01",
+            "urlPath": "at-at-75440"
+        },
+        {
+            "id": "75441",
+            "locales": {
+                "en-US": {
+                    "name": "Venator-Class Attack Cruiser",
+                    "theme": "Star Wars",
+                    "price": {
+                        "currency": "USD",
+                        "amount": 79.99
+                    }
+                }
+            },
+            "pieces": 643,
+            "releaseDate": "2026-01-01",
+            "urlPath": "venator-class-attack-cruiser-75441"
+        },
+        {
+            "id": "75452",
+            "locales": {
+                "en-US": {
+                    "name": "BB-8 Astromech Droid",
+                    "theme": "Star Wars",
+                    "price": {
+                        "currency": "USD",
+                        "amount": 89.99
+                    }
+                }
+            },
+            "pieces": 569,
+            "releaseDate": "2026-01-01",
+            "urlPath": "bb-8-astromech-droid-75452"
+        },
+        {
+            "id": "75436",
+            "locales": {
+                "en-US": {
+                    "name": "The Mandalorian & Grogu's Speeder Bike",
+                    "theme": "Star Wars",
+                    "price": {
+                        "currency": "USD",
+                        "amount": 9.99
+                    }
+                }
+            },
+            "pieces": 58,
+            "releaseDate": "2026-01-01",
+            "urlPath": "the-mandalorian-grogus-speeder-bike-75436"
+        },
+        {
+            "id": "75437",
+            "locales": {
+                "en-US": {
+                    "name": "Cobb Vanth's Speeder",
+                    "theme": "Star Wars",
+                    "price": {
+                        "currency": "USD",
+                        "amount": 34.99
+                    }
+                }
+            },
+            "pieces": 207,
+            "releaseDate": "2026-01-01",
+            "urlPath": "cobb-vanths-speeder-75437"
+        },
+        {
+            "id": "75443",
+            "locales": {
+                "en-US": {
+                    "name": "Grogu's Homestead",
+                    "theme": "Star Wars",
+                    "price": {
+                        "currency": "USD",
+                        "amount": 19.99
+                    }
+                }
+            },
+            "pieces": 107,
+            "releaseDate": "2026-01-01",
+            "urlPath": "grogus-homestead-75443"
+        },
+        {
+            "id": "75448",
+            "locales": {
+                "en-US": {
+                    "name": "Clone Shock Trooper Mech",
+                    "theme": "Star Wars",
+                    "price": {
+                        "currency": "USD",
+                        "amount": 14.99
+                    }
+                }
+            },
+            "pieces": 151,
+            "releaseDate": "2026-01-01",
+            "urlPath": "clone-shock-trooper-mech-75448"
+        },
+        {
+            "id": "75449",
+            "locales": {
+                "en-US": {
+                    "name": "Siege of Mandalore Battle Pack",
+                    "theme": "Star Wars",
+                    "price": {
+                        "currency": "USD",
+                        "amount": 22.99
+                    }
+                }
+            },
+            "pieces": 116,
+            "releaseDate": "2026-01-01",
+            "urlPath": "siege-of-mandalore-battle-pack-75449"
+        },
+        {
             "id": "42226",
             "locales": {
                 "en-US": {
