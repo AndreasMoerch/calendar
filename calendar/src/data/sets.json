@@ -113,6 +113,38 @@
             "urlPath": "japanese-cherry-blossom-landscape-31218"
         },
         {
+            "id": "31376",
+            "locales": {
+                "en-US": {
+                    "name": "Cute Hamster with a Flower",
+                    "theme": "Creator 3-in-1",
+                    "price": {
+                        "currency": "USD",
+                        "amount": 9.99
+                    }
+                }
+            },
+            "pieces": 166,
+            "releaseDate": "2026-01-01",
+            "urlPath": "cute-hamster-with-a-flower-31376"
+        },
+        {
+            "id": "31377",
+            "locales": {
+                "en-US": {
+                    "name": "Turtle with a Water Lily Flower",
+                    "theme": "Creator 3-in-1",
+                    "price": {
+                        "currency": "USD",
+                        "amount": 9.99
+                    }
+                }
+            },
+            "pieces": 124,
+            "releaseDate": "2026-01-01",
+            "urlPath": "turtle-with-a-water-lily-flower-31377"
+        },
+        {
             "id": "31378",
             "locales": {
                 "en-US": {
@@ -127,6 +159,102 @@
             "pieces": 278,
             "releaseDate": "2026-01-01",
             "urlPath": "space-exploration-telescope-31378"
+        },
+        {
+            "id": "31379",
+            "locales": {
+                "en-US": {
+                    "name": "Fierce Dinosaur",
+                    "theme": "Creator 3-in-1",
+                    "price": {
+                        "currency": "USD",
+                        "amount": 19.99
+                    }
+                }
+            },
+            "pieces": 283,
+            "releaseDate": "2026-01-01",
+            "urlPath": "fierce-dinosaur-31379"
+        },
+        {
+            "id": "31380",
+            "locales": {
+                "en-US": {
+                    "name": "Retro Gaming Console",
+                    "theme": "Creator 3-in-1",
+                    "price": {
+                        "currency": "USD",
+                        "amount": 19.99
+                    }
+                }
+            },
+            "pieces": 268,
+            "releaseDate": "2026-01-01",
+            "urlPath": "retro-gaming-console-31380"
+        },
+        {
+            "id": "31381",
+            "locales": {
+                "en-US": {
+                    "name": "Fierce Shark with a Treasure Chest",
+                    "theme": "Creator 3-in-1",
+                    "price": {
+                        "currency": "USD",
+                        "amount": 34.99
+                    }
+                }
+            },
+            "pieces": 379,
+            "releaseDate": "2026-01-01",
+            "urlPath": "fierce-shark-with-a-treasure-chest-31381"
+        },
+        {
+            "id": "31382",
+            "locales": {
+                "en-US": {
+                    "name": "Cute Animals: Playful Puppy Dog",
+                    "theme": "Creator 3-in-1",
+                    "price": {
+                        "currency": "USD",
+                        "amount": 29.99
+                    }
+                }
+            },
+            "pieces": 336,
+            "releaseDate": "2026-01-01",
+            "urlPath": "cute-animals-playful-puppy-dog-31382"
+        },
+        {
+            "id": "31384",
+            "locales": {
+                "en-US": {
+                    "name": "Wild Animals: Colorful Hummingbird",
+                    "theme": "Creator 3-in-1",
+                    "price": {
+                        "currency": "USD",
+                        "amount": 29.99
+                    }
+                }
+            },
+            "pieces": 312,
+            "releaseDate": "2026-01-01",
+            "urlPath": "wild-animals-colorful-hummingbird-31384"
+        },
+        {
+            "id": "31385",
+            "locales": {
+                "en-US": {
+                    "name": "Sea Animals: Beautiful Dolphins",
+                    "theme": "Creator 3-in-1",
+                    "price": {
+                        "currency": "USD",
+                        "amount": 49.99
+                    }
+                }
+            },
+            "pieces": 542,
+            "releaseDate": "2026-01-01",
+            "urlPath": "sea-animals-beautiful-dolphins-31385"
         },
         {
             "id": "40725",
