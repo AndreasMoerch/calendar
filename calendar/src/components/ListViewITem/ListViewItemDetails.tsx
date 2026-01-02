@@ -36,7 +36,7 @@ const ListViewItemDetails: React.FC<ListViewItemDetailsProps> = ({ set }) => {
                 title={setUrl}
             >
                 LEGO.com&nbsp;
-                <FaExternalLinkAlt />
+                <FaExternalLinkAlt title={setUrl}/>
             </a>
         </div>
     );
